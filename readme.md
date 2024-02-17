@@ -61,6 +61,7 @@ As of 13 February 2024, I have included pre-compiled DLLs of the latest version 
      - VS16 x64 Non Thread Safe
      - VS16 x64 Thread Safe
      - VS16 x86 Non Thread Safe
+     - VS16 x86 Thread Safe
 
 To navigate and find the correct version that you need, use your PHP version as a reference:
 If for example your version of PHP is **php-8.2.15-nts-Win32-vs16-x64**, then you would find your DLL at:
@@ -70,7 +71,7 @@ If for example your version of PHP is **php-8.2.15-nts-Win32-vs16-x64**, then yo
 
 ## Future Compiled Versions
 
-In the near future, I will provide compiled versions of Phalcon for PHP 8.1, then proceed to incrementally release updates to this repository for older versions of Phalcon for all of the applicable PHP versions.
+In the near future, I will incrementally release updates to this repository for older versions of Phalcon for all of the applicable PHP versions.
 
 Following the official PHP support lifecycle, I will not be compiling Phalcon framework DLLs for versions older than PHP 8.1 and PHP 8.1 will be dropped from my compiling queue on 25 Nov 2024, when the official security support of that version ends.
 
