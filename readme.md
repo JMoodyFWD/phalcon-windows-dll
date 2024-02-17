@@ -57,6 +57,9 @@ As of 13 February 2024, I have included pre-compiled DLLs of the latest version 
      - VS16 x86 Non Thread Safe
      - VS16 x86 Thread Safe
 
+- **PHP 8.1 (8.1.27)**
+     - VS16 x64 Non Thread Safe
+
 To navigate and find the correct version that you need, use your PHP version as a reference:
 If for example your version of PHP is **php-8.2.15-nts-Win32-vs16-x64**, then you would find your DLL at:
 
