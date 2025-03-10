@@ -1,3 +1,8 @@
+# Update (10 March 2025)
+I fixed Phalcon's GitHub Actions with [this pull request](https://github.com/phalcon/cphalcon/pull/16533) - Thereby fixing the auto-compiled DLLs with each release and effectively making this repo redundant. It was my intention to post an update here much earlier but I got sidetracked and forgot. 
+
+This repo will remain here as an archive, but any and all DLLs should be downloaded directly from either a.) Phalcon's official GitHub releases or b.) from the PECL repo website.
+
 # Pre-Compiled Phalcon DLL Files
 
 For those that are not aware, on [17 Oct 2022](https://windows.php.net/#news-2022-10-17-1) the PHP Team posted a news update stating that the Windows PECL build machine died, and that they are still working on a permanent solution for building DLLs for PECL extensions with a new CI process. In the meantime, this presents some difficulties on Phalcon developers using windows, as the process to compile an extension for PHP is not an easy or quick task, and using WSL is not always an option for everyone. With some studying, I was able to get my own Phalcon extension compiled, so I wanted to share that for those who have been stuck using an outdated version of Phalcon.
